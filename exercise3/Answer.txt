@@ -1,0 +1,43 @@
+Game mechanic
+
+    The game ends when one player's wallet value is zero
+
+    Player can lose his all money
+
+    Player can earn money
+
+    The player must draw a card
+
+    Player gets 400$ after ending full lap
+
+
+
+Tests:
+
+    Player roll the dice then move and decide to buy a real estate.
+
+        GIVEN: Number of dice, current position of player, current wallet,
+        WHEN: Player roll the dice -> move -> buy -> field
+        Then: Wallet decrease, position change, field owner change
+
+
+    Player have to pay to the bank
+
+        GIVEN: Player id, value to be paid, wallet
+        WHEN: Player pays
+        THEN Wallet decrease
+
+
+    Player has no money
+
+        GIVEN: Player wallet, value to be paid
+        WHEN: Player pays
+        THEN: Game over
+
+
+    Player1 sells to player2 his Property
+
+        GIVEN: Player1 Wallet, Player2 Wallet, Property Owner, Property Value,
+        WHEN: Player1 sells his Property to Player2
+        THEN: Player1 Wallet increases by the value of the property, Player2 Wallet decreases by the value of the property, Property Owner Change
+

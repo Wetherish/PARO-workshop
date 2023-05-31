@@ -1,0 +1,312 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "gtest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-gtest-Debug-2618f1bde6c55d7920ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "gtest"
+				},
+				{
+					"build" : "gtest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-gtest.googlemock-Debug-9d95949138e73d230996.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "gtest/googlemock",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "gtest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-gtest.googletest-Debug-5f8c11f07428e0d41633.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "gtest/googletest",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "exercise2",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-exercise2-Debug-553ca7d8ff8ff8ad3b64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise2",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "exercise2/ut",
+					"jsonFile" : "directory-exercise2.ut-Debug-d51f875740a1f0717227.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "exercise2/ut",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "exercise1",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-exercise1-Debug-f7f94210b391edb6a6e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercise1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "exercise1/ut",
+					"jsonFile" : "directory-exercise1.ut-Debug-c18397390bcd1e89d6bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "exercise1/ut",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "application",
+					"jsonFile" : "directory-application-Debug-42f45a6354a6cfac8278.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "application",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "PARO-workshop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "DayOfYear::@634be91d3b98aa6e66db",
+					"jsonFile" : "target-DayOfYear-Debug-696565dd842e389c4765.json",
+					"name" : "DayOfYear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "DayOfYearTests::@632fccf81ad05ffe9c9c",
+					"jsonFile" : "target-DayOfYearTests-Debug-e8bef20b0d3ae7782153.json",
+					"name" : "DayOfYearTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Letters::@25d52716a5e8129195e2",
+					"jsonFile" : "target-Letters-Debug-240867792a5ca1e6b6d6.json",
+					"name" : "Letters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "LettersTests::@cefc5edba572632b2c22",
+					"jsonFile" : "target-LettersTests-Debug-36e39900d7f9d833f1f2.json",
+					"name" : "LettersTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PARO-workshop::@8badf0d542dc2e21c899",
+					"jsonFile" : "target-PARO-workshop-Debug-938429ed38d1a4db14fc.json",
+					"name" : "PARO-workshop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock-Debug-4277189fecfcb26b68ce.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock_main-Debug-fb8e4ce5c415f4c1d1d9.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest-Debug-178c9ad36e272ef85530.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest_main-Debug-99a0498d1e685d00fde5.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/barti/CLionProjects/paro2023-template/cmake-build-debug",
+		"source" : "C:/Users/barti/CLionProjects/paro2023-template"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

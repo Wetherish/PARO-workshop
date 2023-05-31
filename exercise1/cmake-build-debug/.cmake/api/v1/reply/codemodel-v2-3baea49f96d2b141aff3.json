@@ -1,0 +1,80 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ut",
+					"jsonFile" : "directory-ut-Debug-c06a71967a022f06e28e.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ut",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DayOfYear::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DayOfYear-Debug-43c848b28b55805201d2.json",
+					"name" : "DayOfYear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DayOfYearTests::@2afdc31c97a041734815",
+					"jsonFile" : "target-DayOfYearTests-Debug-87a45664f3c93c8e9e25.json",
+					"name" : "DayOfYearTests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug",
+		"source" : "C:/Users/barti/CLionProjects/paro2023-template/exercise1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

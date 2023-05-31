@@ -1,0 +1,6 @@
+C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug/CMakeFiles/DayOfYear.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug/ut/CMakeFiles/DayOfYearTests.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug/ut/CMakeFiles/edit_cache.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise1/cmake-build-debug/ut/CMakeFiles/rebuild_cache.dir

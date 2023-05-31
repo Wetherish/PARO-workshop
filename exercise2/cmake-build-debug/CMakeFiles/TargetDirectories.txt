@@ -1,0 +1,6 @@
+C:/Users/barti/CLionProjects/paro2023-template/exercise2/cmake-build-debug/CMakeFiles/Letters.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise2/cmake-build-debug/ut/CMakeFiles/LettersTests.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise2/cmake-build-debug/ut/CMakeFiles/edit_cache.dir
+C:/Users/barti/CLionProjects/paro2023-template/exercise2/cmake-build-debug/ut/CMakeFiles/rebuild_cache.dir
